@@ -1,7 +1,5 @@
 {
   "name": "Remix: MSG Camera",
   "description": "Real-time 3D mosaic camera app",
-  "requestFramePermissions": [
-    "camera"
-  ]
+  "requestFramePermissions": ["camera"]
 }
