@@ -2,8 +2,6 @@ import React, { Suspense, useEffect, useMemo, useRef, useState } from 'react';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
 import { OrbitControls, Html, useGLTF } from '@react-three/drei';
 import * as THREE from 'three';
-import { useLoader } from '@react-three/fiber';
-import { Settings2, X } from 'lucide-react';
 import '@tensorflow/tfjs';
 import * as bodyPix from '@tensorflow-models/body-pix';
 
